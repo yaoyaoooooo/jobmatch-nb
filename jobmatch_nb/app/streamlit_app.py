@@ -1,6 +1,14 @@
+import sys
+from pathlib import Path
+
 import streamlit as st
 import pandas as pd
-from pathlib import Path
+
+# 把项目根目录加入 Python 搜索路径
+ROOT = Path(__file__).resolve().parents[2]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
 from jobmatch_nb.model.predict import load_model
 from jobmatch_nb.matching.matcher import match_jobs
 from jobmatch_nb.paths import MODELS_DIR, PROCESSED_DIR
@@ -13,11 +21,11 @@ model_path = MODELS_DIR / "nb_job_classifier.joblib"
 data_path = PROCESSED_DIR / "jobs_labeled.csv"
 
 if not model_path.exists():
-    st.error("模型文件不存在，请先运行训练脚本。")
+    st.error(f"模型文件不存在：{model_path}")
     st.stop()
 
 if not data_path.exists():
-    st.error("处理后的岗位数据不存在，请先运行数据准备脚本。")
+    st.error(f"处理后的岗位数据不存在：{data_path}")
     st.stop()
 
 model = load_model(model_path)
