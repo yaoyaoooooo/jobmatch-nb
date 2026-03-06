@@ -1,0 +1,12 @@
+﻿,ai_algorithm,customer_service,data_analytics,education_training,finance_accounting,hr_admin,manufacturing_engineering,operations_supply_chain,other,sales_marketing,software_dev
+ai_algorithm,529,0,2,0,0,0,17,0,16,1,0
+customer_service,0,0,1,0,0,0,2,0,19,2,0
+data_analytics,10,0,493,1,0,0,24,0,58,3,0
+education_training,2,0,1,2,0,0,7,1,29,2,0
+finance_accounting,0,0,6,0,0,0,0,0,5,0,0
+hr_admin,2,0,18,0,0,30,8,7,55,8,0
+manufacturing_engineering,77,0,19,0,0,0,609,0,35,1,0
+operations_supply_chain,0,0,32,0,0,0,3,37,40,3,0
+other,25,0,69,0,0,5,124,9,772,45,0
+sales_marketing,2,0,6,0,0,0,2,0,40,261,0
+software_dev,7,0,1,0,0,0,66,0,9,0,10

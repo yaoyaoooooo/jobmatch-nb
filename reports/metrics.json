@@ -1,0 +1,85 @@
+{
+  "accuracy": 0.7474114441416894,
+  "macro_f1": 0.4595872718081987,
+  "report": {
+    "ai_algorithm": {
+      "precision": 0.808868501529052,
+      "recall": 0.9362831858407079,
+      "f1-score": 0.8679245283018868,
+      "support": 565.0
+    },
+    "customer_service": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 24.0
+    },
+    "data_analytics": {
+      "precision": 0.7608024691358025,
+      "recall": 0.8370118845500849,
+      "f1-score": 0.7970897332255457,
+      "support": 589.0
+    },
+    "education_training": {
+      "precision": 0.6666666666666666,
+      "recall": 0.045454545454545456,
+      "f1-score": 0.0851063829787234,
+      "support": 44.0
+    },
+    "finance_accounting": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 11.0
+    },
+    "hr_admin": {
+      "precision": 0.8571428571428571,
+      "recall": 0.234375,
+      "f1-score": 0.36809815950920244,
+      "support": 128.0
+    },
+    "manufacturing_engineering": {
+      "precision": 0.7064965197215777,
+      "recall": 0.8218623481781376,
+      "f1-score": 0.759825327510917,
+      "support": 741.0
+    },
+    "operations_supply_chain": {
+      "precision": 0.6851851851851852,
+      "recall": 0.3217391304347826,
+      "f1-score": 0.4378698224852071,
+      "support": 115.0
+    },
+    "other": {
+      "precision": 0.7161410018552876,
+      "recall": 0.7359389895138226,
+      "f1-score": 0.7259050305594734,
+      "support": 1049.0
+    },
+    "sales_marketing": {
+      "precision": 0.8006134969325154,
+      "recall": 0.8392282958199357,
+      "f1-score": 0.8194662480376766,
+      "support": 311.0
+    },
+    "software_dev": {
+      "precision": 1.0,
+      "recall": 0.10752688172043011,
+      "f1-score": 0.1941747572815534,
+      "support": 93.0
+    },
+    "accuracy": 0.7474114441416894,
+    "macro avg": {
+      "precision": 0.6365378816517222,
+      "recall": 0.4435836601374952,
+      "f1-score": 0.4595872718081987,
+      "support": 3670.0
+    },
+    "weighted avg": {
+      "precision": 0.7465133249685874,
+      "recall": 0.7474114441416894,
+      "f1-score": 0.7243860181263848,
+      "support": 3670.0
+    }
+  }
+}
